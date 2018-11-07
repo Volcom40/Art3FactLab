@@ -1,0 +1,430 @@
+/* -------------------------------------------------------------------------------------------------------------- */
+/* Background */
+.container-bg1 , .container-bg2, .container-bg3, .container-bg4, .container-bg5, .container-bg6, .container-bg7{
+    background-size: cover; 
+    padding: 150px 0px 150px 0px;
+    border-top: solid 1px lightgray;
+}
+.ajout-carousel{
+    max-width: 55rem;
+}
+.kv-file-content{
+    width: 13rem;
+    overflow: hidden;
+}
+/* Colonne supplémentaire pour bootstrap*/
+@media(min-width: 1560px){
+    .col-xxl-2{
+        position: relative;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+a{
+    text-decoration: none;
+    color: rgb(90, 123, 157);
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(35, 64, 108);
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style Navbar -----         */
+.navbar{
+    border-bottom: solid 1px lightgray;
+}
+/* Style de l'écriture de : Art3Fact Lab et autres onglets */
+.navbar-brand, .nav-item{
+    font-style: italic;
+}
+.navbar-brand {
+    padding-top: 0px;
+}
+.navbar-border{
+    border-bottom: solid 1px lightgray;
+}
+/* Style écriture pour "Art3Fact Lab" */
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus{
+    color: #EF1B58;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 2.7rem;
+}
+
+@media(max-width: 991px){
+    .navbar-light .navbar-brand, .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus{
+        font-size: 2.0rem;
+    }
+}
+
+/* Style écriture pour "autres onglets" */
+.navbar-light .navbar-nav .nav-link{
+    color: #163C63;
+    font-size: 0.9rem;
+    padding-bottom: 0px;
+}
+/* Couleur lors du passage du pointeur de la souris des "autres onglets" + couleur après clic*/
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+    color: #209666;
+}
+/*      ----- Fin Style Navbar -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style Carousel -----         */
+/* Style de l'écriture des images du carousel */
+.carousel-caption-size{
+    text-shadow: black 0.1em 0.1em 0.2em, 0 0 10px #163C63;
+}
+.carousel{
+    margin-top: 5rem;
+}
+
+@media(max-width: 991px){
+    .carousel{
+        margin-top: 4rem;
+    }
+}
+/* Couleur des curseurs (ronds) de selection des images du carousel */
+.carousel-indicators li{ 
+    margin-top: 60px;
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    background-color: transparent grey;
+}
+/* Position des curseurs de selections (ronds) */
+.carousel-indicators{
+    bottom: -5px;
+}
+/* Taille image du carousel + dimensions flêches gauche et droite */
+@media(max-width: 4096px){
+    .carousel-inner img {width: 100%;max-height: 760px; min-height: 760px;}
+    .carousel-control-next-icon, .carousel-control-prev-icon{width: 50%;height: 50%;}
+}
+@media(max-width: 2560px){
+    .carousel-inner img {width: 100%;max-height: 750px; min-height: 750px;}
+    .carousel-control-next-icon, .carousel-control-prev-icon{width: 30%;height: 30%;}
+}
+@media(max-width: 1920px){
+    .carousel-inner img {width: 100%;max-height: 740px; min-height: 740px;}
+    .carousel-control-next-icon, .carousel-control-prev-icon{width: 30%;height: 30%;}
+}
+@media(max-width: 1560px){
+    .carousel-inner img {max-height: 640px;min-height: 640px}
+    .carousel-control-next-icon, .carousel-control-prev-icon{width: 50%;height: 50%;}
+}
+@media(max-width: 1199px){
+    .carousel-inner img {max-height: 500px;min-height: 500px}
+    .carousel-control-next-icon, .carousel-control-prev-icon{width: 50%;height: 50%;}
+}
+@media(max-width: 991px){
+    .carousel-inner img {max-height: 450px;min-height: 450px}
+    .carousel-control-next-icon, .carousel-control-prev-icon{width: 40%;height: 40%;}
+}
+@media(max-width: 767px){
+    .carousel-inner img {max-height: 400px;min-height: 400px}
+    .carousel-control-next-icon, .carousel-control-prev-icon{width: 50%;height: 50%;}
+}
+@media(max-width: 575px){
+    .carousel-inner img {max-height: 350px;min-height: 350px}
+    .carousel-control-next-icon, .carousel-control-prev-icon{width: 50%;height: 50%;}
+}
+@media(max-width: 400px){
+    .carousel-inner img {max-height: 300px;min-height: 300px}
+    .carousel-control-next-icon, .carousel-control-prev-icon{width: 50%;height: 50%;}
+}
+/*      ----- Fin Style Carousel -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style Section Activités -----         */
+/* Style du cadre qui contient l'ensemble des éléments d'une activité (image + texte) */
+.activite-container{
+    margin-bottom: 30px;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+/* Style de l'effet lors du passage du pointeur de la souris sur une image d'une activité */
+.activite-img:hover{
+    box-shadow: darkgrey 0px 0px 10px 2px;
+    border-radius: 0.7rem;
+}
+/* Style pour la partie secondaire "sous l'image" d'une activité */
+.activite-caption{
+    padding: 0.5rem;
+    overflow-y: auto;
+}
+/* Style de l'image d'une activité */
+.activite-img{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 5rem;
+    transition: 1s;
+}
+/*      ----- Fin Style Section Activités -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style Section Projet -----         */
+/* Style du cadre qui contient l'ensemble des éléments d'un projet (image + texte + bouttons) */
+.projet-container{
+    background-color: #f9f9f9;
+    border: solid 1px lightgray;
+    margin-bottom: 30px;
+}
+/* Style de l'effet lors du passage du pointeur de la souris sur un projet */
+.projet-container:hover{
+    box-shadow: lightblue 0px 0px 1px 2px;
+}
+/* Style pour la partie secondaire "sous l'image" d'un projet */
+.projet-caption{
+    padding: 0.5rem;
+    height: 9.8rem;
+    overflow-y: auto;
+    font-size: 0.7vw;
+}
+@media(max-width: 1920px){
+    .projet-caption{font-size: 0.7vw;}
+}
+@media(max-width: 1560px){
+    .projet-caption{font-size: 0.9vw;}
+}
+@media(max-width: 1199px){
+    .projet-caption{font-size: 1.1vw;}
+}
+@media(max-width: 767px){
+    .projet-caption{font-size: 2.5vw;}
+}
+@media(max-width: 400px){
+    .projet-caption{font-size: 3vw;}
+}
+/* Style de l'image d'un projet */
+.projet-img{
+    width: 100%;
+    height: 180px;
+}
+.projet-img-admin{
+    width: 100%;
+    height: 180px;
+    border-bottom: solid 1px lightgray;
+}
+.projet-footer{
+    border-top: solid 1px lightgray;
+    height: 5rem;
+    overflow-y: auto;
+}
+@media(max-width: 1920px){
+    .projet-caption, .projet-footer{font-size: 0.7vw;}
+}
+@media(max-width: 1560px){
+    .projet-caption, .projet-footer{font-size: 0.9vw;}
+}
+@media(max-width: 1199px){
+    .projet-caption, .projet-footer{font-size: 1.1vw;}
+}
+@media(max-width: 767px){
+    .projet-caption, .projet-footer{font-size: 2.5vw;}
+}
+@media(max-width: 400px){
+    .projet-caption, .projet-footer{font-size: 3vw;}
+}
+/*      ----- Fin Style Section Projets -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style Section Videos -----         */
+/* Style du cadre qui contient l'ensemble des éléments d'une video (image + video + bouttons) */
+.video-container{
+    background-color: #f9f9f9;
+    border: solid 1px lightgray;
+    margin-bottom: 30px;
+}
+/* Style pour la partie haute dessus la vidéo */
+.video-header{
+    padding-bottom: 0.2rem;
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+    padding-top: 0.3rem;
+    margin-bottom: 0px;
+}
+/* Style pour la partie secondaire dessous la vidéo */
+.video-caption{
+    padding: 0.5rem;
+    height: 8rem;
+    overflow-y: auto;
+}
+.video-footer{
+    border-top: solid 1px lightgray;
+    height: 2rem;
+    overflow-y: auto;
+}
+@media(max-width: 1920px){
+    .video-caption, .video-footer{font-size: 0.7vw;}
+}
+@media(max-width: 1560px){
+    .video-caption, .video-footer{font-size: 0.9vw;}
+}
+@media(max-width: 1199px){
+    .video-caption, .video-footer{font-size: 1.1vw;}
+}
+@media(max-width: 767px){
+    .video-caption, .video-footer{font-size: 2.5vw;}
+}
+@media(max-width: 400px){
+    .video-caption, .video-footer{font-size: 3vw;}
+}
+.video-admin{
+    width: 100%;
+    display: inline-block;
+    border-bottom: solid 1px lightgray;
+    border-top: solid 1px lightgray;
+}
+.video-caption-admin{
+    padding: 0.5rem;
+    height: 5.35rem;
+    overflow-y: auto;
+}
+.video-img-admin{
+    width: 100%;
+    height: 12.7rem;
+    display: inline-flex;
+}
+/*      ----- Fin Style Section Videos -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style Section Partenaires -----         */
+/* Style du cadre qui contient l'ensemble des éléments d'un partenaire (image + boutton) */
+.partenaire-container{
+    background-color: #f9f9f9;
+    border: solid 1px lightgray;
+    margin-bottom: 30px;
+    width: 6rem;
+    border-radius: 1rem;
+    margin: 0 auto 3rem;
+    transition: 2s;
+}
+/* Style de l'effet lors du passage du pointeur de la souris sur un partenaire */
+.partenaire-container:hover{
+    box-shadow: lightblue 0px 0px 1px 2px;
+    border-radius: 0rem;
+    -webkit-transform:scale(1.5); /* Safari et Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* Internet Explorer 9 */
+    -o-transform:scale(1.5); /* Opera */
+    transform:scale(1.5);
+    transition: 2s;
+    z-index: 1;
+}
+/* Style de l'image d'un partenaire */
+.partenaire-img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+}
+/*      ----- Fin Style Section Partenaire -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style Section Contact -----         */
+.contact-form{
+    margin: 0 auto;
+    width: 80%;
+    background-color: #f9f9f9;
+    border: solid 1px lightgray;
+    border-radius: 2rem;
+    box-shadow: darkgrey 0px 0px 10px 2px;
+}
+.contact-image{
+    margin-top: -4rem;
+    transition: 2s;
+}
+.contact-image:hover{
+    margin-top: -4rem;
+    -webkit-transform:scale(1.1); /* Safari et Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* Internet Explorer 9 */
+    -o-transform:scale(1.1); /* Opera */
+    transform:scale(1.1);
+    transition: 2s;
+    z-index: 1;
+}
+/*      ----- Fin Style Section Contact -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style Section Footer -----         */
+.footer{
+    border-top: solid 3px lightgray;
+    background: linear-gradient(141deg, #e8eef5 10%, #bdcdde 30%, #b9cbde 60%);
+}
+.footer-copyright{
+    background-color: #8b99a8;
+    border-top: solid 3px lightgray;
+}
+.img-footer{
+    transition: 1s;
+}
+.img-footer:hover{
+    -webkit-transform:scale(1.5); /* Safari et Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.1); /* Internet Explorer 9 */
+    -o-transform:scale(1.1); /* Opera */
+    transform:scale(1.5);
+    transition: 1s;
+    z-index: 1;
+}
+/*      ----- Fin Style Section Footer -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style Section Machines -----         */
+.img-machine-bg{
+    background-color: #f9f9f9;
+    border: solid 1px lightgray;
+    height: 19rem;
+}
+.img-machine-desc-bg{
+    border: solid 1px lightgray;
+    height: 19rem;
+    overflow-y: auto;
+}
+.img-machine-desc-header{
+    background-color: #b0c1d5;
+    overflow-y: auto;
+    height: 2rem;
+    border-bottom: solid 1px lightgray;
+}
+.img-machine-desc-body{
+    overflow-y: auto;
+    height: 14.4rem;
+}
+.img-machine-desc-footer{
+    border-top: solid 1px lightgray;
+    background-color: #c4cad1;
+    overflow-y: auto;
+    height: 2.5rem;
+}
+.img-machine{
+    width: 15rem;
+    height: 16rem;
+    border-radius: 3rem;
+    transition: 1s;
+}
+.img-machine:hover{
+    border-radius: 1rem;
+    transition: 1s;
+    box-shadow: darkgrey 0px 0px 10px 2px;
+}
+/*      ----- Fin Style Section Machines -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style Login-----         */
+.container-bg-login{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Marge entre les différents formulaires */
+.container-bg-login{
+    min-height: 100vh;
+}
+.col-login{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px 1px 15px lightslategray;
+    border: solid 1px #ced4da
+}
+/* Marge entre les différents formulaires */
+.item-margin{
+    margin: 20px 0 0 0;
+}
+/*      ----- Fin Style Login-----         */
+/* -------------------------------------------------------------------------------------------------------------- */

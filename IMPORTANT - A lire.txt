@@ -1,0 +1,12 @@
+Guide d'installation du site internet d'Art3fact Lab. 
+
+Première 1 : Extraire L’archive .rar
+Ouvrir l’archive art3factlab.rar avec le logiciel Winrar, extraire tous les fichiers dans un nouveau dossier. 
+
+Deuxième 2 : Fichiers art3factlab.sql et config.php
+Dans ce nouveau dossier ou vous avez extrait les différents éléments de l’archive .rar , il y a deux choses importantes à prendre en compte.
+Il y a un fichier « art3factlab.sql » qui permet de mettre en place rapidement la base de données du site internet. Pour ouvrir ce fichier, il faut utiliser un éditeur de texte, de préférence Notepad++ disponible ici : https://notepad-plus-plus.org/fr/. Lorsque le fichier art3factlab.sql est ouvert dans l’éditeur de texte, il faut ensuite copier l’ensemble du fichier. Après cette étape, rendez-vous sur le panel de la base de données « PHPMYADMIN ». Il faudra ensuite copier le contenu du fichier art3factlab.sql dans la zone « SQL ». Si tout se passe correctement, la base de données sera entièrement opérationnelle. 
+Il y a ensuite un autre fichier présent dans /config/config.php. Ce fichier permet de faire la liaison entre les fichiers du site internet et la base de données ainsi que les informations de serveur Mail. Pour changer les paramètres présents dans ce fichier, il faut l’ouvrir avec un éditeur de texte, de préférence Notepad++. Un fois le fichier ouvert, il faut remplacer les différents paramètres par ceux qui sont fournis par l’hébergeur du site internet ainsi que les paramètres de connexions mail. 
+
+Etape 3 : Transférer les fichiers via FTP. 
+Une fois l’ensemble des fichiers modifiés, il faudra transférer tous les fichiers en utilisant un logiciel FTP tels que FileZilla ou CyberDuck. 

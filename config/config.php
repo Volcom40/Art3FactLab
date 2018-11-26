@@ -1,6 +1,6 @@
 <?php
     //Constantes pour la base de donnees
-    const DBS_HOST = '91.216.107.182';
+    const DBS_HOST = 'localhost';
     const DBS_BASE = 'art3factlab';
     const DBS_USER = 'utilisateur';
     const DBS_PASS = 'motdepasse';

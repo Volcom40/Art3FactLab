@@ -1,0 +1,247 @@
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style Containers -----         */
+/* Paramètres globaux de tous les containers*/
+.container-app-bg1 , .container-app-bg2, .container-app-bg3{
+    background-size: cover;
+    padding-top: 16vh;
+    padding-bottom: 16vh;
+}
+/* Background du container 1 */
+.container-app-bg1{
+    background-image: url(../../img/Background/Background1.jpg);
+}
+/* Background du container 2 */
+.container-app-bg2{
+    background-image: url(../../img/Background/Background2.jpg);
+}
+/* Background du container 3 */
+.container-app-bg3{
+    background-image: url(../../img/Background/Background3.jpg);
+}
+.bg-navbar-app{
+    background-color: #e9ecef;
+    border-bottom: solid 1px lightgray;
+}
+/*      ----- Fin Style Containers -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style Header -----         */
+.header-border{
+    border-bottom: solid 1px lightgrey;
+}
+.header-padding{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.user-log{
+    margin-bottom: -1rem;
+}
+/*      ----- Fin Style Header -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style Footer -----         */
+.footer-docs{
+    padding-bottom: 0px;
+    padding-top: 1rem;
+    background-color: #e9ecef;
+    border-left: solid 1px black;
+    border-top: solid 1px lightgray;
+}
+.footer-link{
+    padding-top: 1.5rem;
+}
+.footer-copyrights{
+    border-top: dashed 1px black;
+    margin-top: 3rem;
+    padding-top: 14px;
+    padding-bottom: 7px;
+}
+.footer-border-top{
+    border-top: solid 1px lightgray;
+}
+/*      ----- Fin Style Footer -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style login -----         */
+.login-container{
+    border: solid 5px lightgray;
+    box-shadow: 5px 5px 5px lightslategray;
+    display: flex;
+    margin-bottom: 8vh;
+    margin-top: 8vh;
+}
+.login-rightside{
+    background-color: #e9ecef;
+    padding: 1rem;
+    width: 50%;
+    border-left: solid 5px lightgrey;
+}
+.rightside-btn-size{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.login-leftside{
+    background-color: #f8f9fa;
+    padding: 1rem;
+    width: 50%;
+}
+.leftside-btn-container{
+    background-color: #fff;
+    padding: 0.35rem; 
+    overflow-y: auto;
+    height: 128px;
+    border: solid 2px lightgray;
+}
+@media(max-width: 1280px){
+    .leftside-btn-container{height: 136px;}
+}
+.leftside-btn-size{
+    width: 32.2%;
+    margin-bottom: 5px;
+}
+@media(max-width: 1166px){
+    .leftside-btn-size{width: 45%}
+}
+@media(max-width: 700px){
+    .leftside-btn-size{width: 95%}
+}
+.numeric-pad{
+    background-color: #fff;
+    border: solid 2px lightgray;
+    padding: 0.35rem;
+    width: auto;
+    height: 228px;
+    display: grid;
+}
+.info-user{
+    background-color: #fff;
+    border: solid 2px lightgray;
+    height: 228px;
+    overflow-y: auto;
+    padding-top: 0.70rem;
+}
+td{
+    width: 15%;
+}
+.btn-success{
+    background-color: #209666;
+}
+.btn-primary{
+    background-color: #163C63;
+}
+.login-password-input{
+    margin-bottom: 0.35rem;}
+/*      ----- Fin Style Login -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Style f-machines -----         */
+.f-machines-container{
+    border: solid 5px lightgrey;
+    box-shadow: 5px 5px 5px lightslategray;
+    position: relative;
+    margin: 0.70rem;
+}
+@media(max-width: 4096px){
+}
+@media(max-width: 2560px){
+}
+@media(max-width: 1920px){
+    .f-machines-container{width: 18%;}
+}
+@media(max-width: 1501px){
+    .f-machines-container{width: 18%;}
+}
+@media(max-width: 1281px){
+    .f-machines-container{width: 18%;margin: 0.55rem;}
+}
+@media(max-width: 1199px){
+    .f-machines-container{width: 25%;margin: 0.55rem;}
+}
+@media(max-width: 991px){
+    .f-machines-container{width: 33%;margin: 0.55rem;}
+}
+@media(max-width: 767px){
+    .f-machines-container{width: 40%;margin: 0.55rem;}
+}
+@media(max-width: 575px){
+    .f-machines-container{width: 46%;margin: 0.55rem;}
+}
+@media(max-width: 450px){
+    .f-machines-container{width: 45%;margin: 0.55rem;}
+}
+@media(max-width: 400px){
+    .f-machines-container{width: 70%;margin: 0.55rem;}
+}
+@media(max-width: 350px){
+    .f-machines-container{width: 90%;margin: 0.55rem;}
+}
+.f-machines-header{
+    background-color: #fff;
+    padding-top: 0.30rem;
+    border-bottom: solid 1px lightgrey;
+    height: 7.1rem;
+}
+.f-machines-header-image{
+    min-height: 130px;
+    max-height: 130px;
+    min-width: 50%;
+    max-width: 50%;
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    left: 25%;
+    border: solid 5px lightgray;
+}
+.f-machines-footer{
+    background-color: #e9ecef;
+    padding: 0.35rem;
+}
+.f-machines-footer-statut{
+    background-color: #e9ecef;
+    padding: 0.70rem;
+    height: 5.3rem;
+    overflow-y: scroll;
+    border-top: solid 1px lightgray;
+}
+.f-machines-footer-statut-bis{
+    background-color: #e9ecef;
+    padding: 0.70rem;
+    height: 5.6rem;
+    overflow-y: scroll;
+    border-top: solid 1px lightgray;
+}
+.f-machines-footer-info{
+    margin-top: 5rem;
+}
+/*      ----- Fin Style f-machines -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Debut Style userInfos -----         */
+.table-responsive{
+    border: solid 5px lightgray;
+    min-height: auto;
+    max-height: 15.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    box-shadow: 5px 5px 5px lightslategray;
+}
+.table-responsive2{
+    border: solid 5px lightgray;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    box-shadow: 5px 5px 5px lightslategray;
+    height: 18rem;
+}
+.table{
+    margin:0;
+    padding:0;
+}
+/*      ----- Fin Style userInfos -----         */
+/* -------------------------------------------------------------------------------------------------------------- */
+/*      ----- Debut Style Gestion -----         */
+.form-gestion{
+    width: 50%;
+    margin: auto;
+}
+/*      ----- Fin Style Gestion -----         */
+/* -------------------------------------------------------------------------------------------------------------- */

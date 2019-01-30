@@ -1,6 +1,6 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" data-toggle="affix">
         <div class="mx-auto d-lg-flex">
-            <a class="navbar-brand js-scroll-trigger" href="#Accueil">Art3Fact Lab</a>
+            <a class="navbar-brand js-scroll-trigger" href="#Accueil">Art3Fact Lab Jesus</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

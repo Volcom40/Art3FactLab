@@ -7,7 +7,7 @@
             <div class="collapse navbar-collapse text-center" id="navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#Equipe">Notre communauté</a>
+                        <a class="nav-link js-scroll-trigger" href="#Equipe">Notres communauté</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index-machines.php">Nos machines</a>

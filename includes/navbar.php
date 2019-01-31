@@ -1,13 +1,13 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" data-toggle="affix">
         <div class="mx-auto d-lg-flex">
-            <a class="navbar-brand js-scroll-trigger" href="#Accueil">Art3FactLab</a>
+            <a class="navbar-brand js-scroll-trigger" href="#Accueil">Art3FactLab Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             <div class="collapse navbar-collapse text-center" id="navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#Equipe">Notres communauté</a>
+                        <a class="nav-link js-scroll-trigger" href="#Equipe">Notre communauté</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index-machines.php">Nos machines</a>
